@@ -1,0 +1,77 @@
+    .menu-mobile {
+      width:40px;
+      height:40px;
+      position: absolute;
+      background:url('../imagens/menu-mobile-br.svg') no-repeat center center;
+      background-size:cover;
+      top: 80px;
+      left: 250px;
+	    border:0;
+      cursor: pointer;
+      outline:none;
+    }
+
+    .menu-mobile-close{
+      width:40px;
+      height:40px;
+      position: relative;
+      background:url('../imagens/menu-mobile-close.svg') no-repeat center center;
+      background-size:80%;
+      top:0px;
+	  left: 30px;
+/*      left:-30px;
+*/      border:0;
+      cursor: pointer;
+      outline:none;
+	  margin-right:100px;
+    }
+
+/*    .menu-mobile-close{
+      background:url('../imagens/menu-mobile-close-br.svg') no-repeat center center;
+      background-size:80%;
+      display: none;
+    }
+*/
+
+.menu-wrap {
+  padding: 15px;
+  background-color: #f3f3f3;
+}
+
+.menu-column h4 {
+  font-weight: 700;
+  font-size: 0.8em;
+  color: #1d1d1d;
+  margin-bottom: 8px;
+}
+
+h4.top-list  {
+  margin-bottom: 2px;
+}
+
+.menu-column li {
+  font-weight: 600;
+  font-size: 0.68em;
+  list-style-type: none;
+  line-height: 1.95;
+}
+
+#fecha {
+min-width:200px;
+}
+
+#sobre-o-governo {
+min-width:170px;
+}
+
+#secretarias {
+min-width:100px;
+}
+
+#outros-orgaos {
+min-width:130px;
+}
+
+#imprensa {
+min-width:80px;
+}

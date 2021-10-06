@@ -1,0 +1,137 @@
+#atl-player div{
+    font-family: oswald;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.site-header {
+    z-index: 99;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header .header-main {
+    height: 100px;
+    position: relative;
+}
+
+h1,h2,h3,h4,h5,h6,strong{font-weight:400}
+
+h2,h3{margin: 0; padding: 0;}
+
+@font-face{font-family:oswald;src:url(./fonts/oswald-bold-webfont.eot);src:url(./fonts/oswald-bold-webfont.eot?#iefix) format('embedded-opentype'),url(./fonts/oswald-bold-webfont.woff2) format('woff2'),url(./fonts/oswald-bold-webfont.woff) format('woff'),url(./fonts/oswald-bold-webfont.ttf) format('truetype'),url(./fonts/oswald-bold-webfont.svg#oswaldbold) format('svg');font-weight:700;font-style:normal}@font-face{font-family:oswald;src:url(./fonts/oswald-light-webfont.eot);src:url(./fonts/oswald-light-webfont.eot?#iefix) format('embedded-opentype'),url(./fonts/oswald-light-webfont.woff2) format('woff2'),url(./fonts/oswald-light-webfont.woff) format('woff'),url(./fonts/oswald-light-webfont.ttf) format('truetype'),url(./fonts/oswald-light-webfont.svg#oswaldlight) format('svg');font-weight:200;font-style:normal}@font-face{font-family:oswald;src:url(./fonts/oswald-regular-webfont.eot);src:url(./fonts/oswald-regular-webfont.eot?#iefix) format('embedded-opentype'),url(./fonts/oswald-regular-webfont.woff2) format('woff2'),url(./fonts/oswald-regular-webfont.woff) format('woff'),url(./fonts/oswald-regular-webfont.ttf) format('truetype'),url(./fonts/oswald-regular-webfont.svg#oswaldregular) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:icomoon;src:url(./fonts/icomoon.eot?wi8q16);src:url(./fonts/icomoon.eot?#iefixwi8q16) format('embedded-opentype'),url(./fonts/icomoon.woff?wi8q16) format('woff'),url(./fonts/icomoon.ttf?wi8q16) format('truetype'),url(./fonts/icomoon.svg?wi8q16#icomoon) format('svg');font-weight:400;font-style:normal}
+
+
+#atl-player {
+    background-color: #404040;
+    width: 190px;
+    margin: 5px 0px 5px 5px;
+    display: flex;
+    border-radius: 5px;
+}
+
+#atl-player a {
+    width: 35px;
+    height: 35px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    -moz-user-select: -moz-none;
+    outline: 0!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#atl-player a .overlayer {
+    width: 35px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(95, 95, 95, 0.25);
+    color: #fff;
+    font-size: .8em;
+    text-align: center;
+    /* line-height: 50px; */
+    opacity: 1;
+    transition: opacity .5s;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#atl-player a .overlayer .icon-pause, #atl-player a .overlayer .icon-play {
+    line-height: 35px!important;
+}
+
+[class*=" icon-"], [class^=icon-] {
+    font-family: icomoon;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-play:before {
+    content: "\e60d";
+}
+
+.icon-pause:before {
+    content: "\e60c";
+}
+
+#atl-player a .overlayer .icon-pause, #atl-player a .overlayer .icon-play {
+    line-height: 35px!important;
+}
+
+#atl-player a .overlayer .icon-pause, #atl-player a .overlayer span {
+    display: none;
+}
+
+#atl-player.playing a .overlayer .icon-pause {
+    display: inline-block;
+}
+
+#atl-player .text {
+    overflow: hidden;
+    padding: 2px 0 2px 5px;
+    width: 150px;
+}
+
+#atl-player h3 {
+    color: #959595;
+    font-size: .54em;
+    text-transform: uppercase;
+    letter-spacing: 0.3;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 400;
+}
+
+#atl-player h2 {
+    color: #fff;
+    font-size: .7em;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 0.5;
+}
+
+#atl-player h2, #opinion .wp-polls-res ul strong, .player-infos h3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+    

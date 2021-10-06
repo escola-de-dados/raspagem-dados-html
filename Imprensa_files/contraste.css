@@ -1,0 +1,127 @@
+/***
+*** Thema: Portal Transparência
+*** Author: Wander hungerbühler
+*** Criação: 28/06/2019
+***/
+
+.bgContrast{
+    background: #000000;
+    color:#e0e41c;
+    transition: all .3s ease-in-out;
+  }
+
+.bgContrast p:empty{
+  background: #e0e41c;
+}
+
+  .bgContrast .branco{
+    background: #000;
+  }
+
+  .bgContrast .lista-noticias{
+    background: #fff;
+  }
+
+  .bgContrast .lista-noticias a{
+    color: #000;
+  }
+
+  .bgContrast .menu-superior{
+    background: #000;
+  }
+
+  .bgContrast .cinza{
+    background: #000;
+  }
+
+  .bgContrast .titulo-secao span{
+    color: #e0e41c;
+  }
+
+  .bgContrast .title{
+    color:#e0e41c;
+  }
+
+  .bgContrast .footer{
+    background:#000;
+  }
+
+  .bgContrast .noticia-3col h4{
+    color: #e0e41c;
+  }
+
+  .bgContrast .cabecalho{
+    background: #000;
+  }
+
+  .bgContrast .djfskfjdkfjkd{
+    color: #e0e41c;
+    background: 
+  }
+  
+  .bgContrast .nao-encontrou span{color:#000;}
+  .bgContrast .nao-encontrou p{color:#000;}
+  .bgContrast .nao-encontrou a{background:#000; color:#e0e41c;}
+  
+  /* BUSCA DE PEDIDOS E RESPOSTAS */
+  .bgContrast .desc-pedidos-e-respostas h1, .bgContrast .desc-pedidos-e-respostas p,
+  .bgContrast .link, .bgContrast .buscas-avancadas a {
+      color:#e0e41c;
+  }
+  
+  .bgContrast .btn-buscarRespostas{
+      background:#000;
+      border:1px solid #e0e41c;
+      color: #e0e41c;
+  }
+  
+  .bgContrast .slider-gastos{
+      background: #000000;
+      color:#e0e41c;
+      transition: all .3s ease-in-out;
+  }
+  
+  .bgContrast .btn-pesquisa{
+      background:#000;
+      border:1px solid #e0e41c;
+  }
+  
+  .bgContrast .select-items{
+      border:1px solid #e0e41c;
+  }
+  
+  .bgContrast .list-menu {
+    box-shadow: none;
+  }
+  
+  .bgContrast .flip-container__button {background: #000000;}
+  .bgContrast .flip-container__estatico {background: #000000;}
+  
+  .bgContrast .form-pesquisa .buscarportal {
+    color:#e0e41c;
+    border: 2px solid #e0e41c;
+    background:#000000;
+  }
+  
+  .bgContrast .buscarportal::placeholder{color:#e0e41c; outline: none;}
+  .bgContrast .redes li {border-right:1px solid #e0e41c;}
+  .bgContrast .redes-ft li {border-right:1px solid #e0e41c;}
+  
+  .bgContrast .logo-cge {
+    border-left: 2px solid #ffffff;
+  }
+  
+  .bgContrast .btn-search {
+    background: url('../imagens/contraste/search.svg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .bgContrast .logo-governo {
+    background: url('../imagens/logo-governo-w.png') no-repeat center center;
+    background-size: 80%;
+    height: 72px;
+  }
+  
+  .bgContrast .list-menu li {background: #000000;}
+  .bgContrast .list-menu li a {color:#e0e41c; text-decoration: underline; }
+  

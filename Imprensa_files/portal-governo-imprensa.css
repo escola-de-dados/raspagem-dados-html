@@ -1,0 +1,154 @@
+p:empty {width: 80px; height: 6px;margin: 0 auto;}
+
+.verde{background: #44773A;}
+.branco{background: #ffffff;}
+
+div#pnlFotos {display: flex; flex-wrap: wrap;}
+
+
+#secao-um {background-image: linear-gradient(rgba(0, 80, 138, 0.25) 50%, rgba(0, 80, 138, 0.25) 50%), 
+    url(../imagens/rio-de-janeiro-cristo-redentor.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;
+	display: flex; min-height: 500px;}
+.section {min-height:500px; padding:30px 0px;}
+.mais-pesquisados-wrap {display: flex; flex-wrap: wrap;}
+.mais-pesquisados-wrap li {list-style-type: none;}
+.mais-pesquisados-wrap a {margin: 4px; border-radius: 5px; background-color: #dddddd; color: #464646!important; font-weight: 700;
+    font-size: 0.7em; padding: 5px 8px; cursor: pointer; text-decoration: none; display: flex; justify-content: space-between;}
+.mais-pesquisados-wrap span {color: #000000; font-weight: 600; font-size: 0.8em; padding: 5px 10px 5px 0px;}
+.ver-mais-noticias-wrap a {border-radius: 5px; background-color: #dddddd; color: #636363!important; font-weight: 700;
+    font-size: 0.80em!important; padding: 10px 12px; cursor: pointer; margin: 0 auto; position: relative; top: 15;}
+.telefones-uteis-wrap {display: flex; flex-wrap: wrap; justify-content: space-around; width: 35em; margin: 0 auto;}
+.telefones-uteis-wrap a {margin: 7px 3px; border-radius: 25px; background-color: #dddddd; color: #363636; font-weight: 700;
+    font-size: 0.9em; padding: 5px 12px; cursor: pointer;}
+.telefones-uteis-wrap button {margin: 7px 3px; border-radius: 25px; background-color: #dddddd; color: #363636; font-weight: 700;
+    font-size: 0.9em; padding: 5px 12px; cursor: pointer;border: none;}
+
+/* HEADER */
+.cabecalho{background: #00508a; color:#fff;}
+.cabecalho h1{margin-top:15px; font-size:1.5em;}
+.cabecalho span{font-weight: 300; font-size:.8em; text-align: center;}
+.logo-branco{width:400px; height: 150px; background: url('../imagens/logo-governo-g12.png') no-repeat center center;
+  background-size:70%;}
+.logo-branco-rodape{width: 260px; height: 67px; background: url('../imagens/logo-governo-g12.png') no-repeat center center;
+  background-size: cover; position: relative;}
+.logo-branco-secretarias{width:250px; height: 75px; background: url('../imagens/logo-governo-g12.png') no-repeat right center;
+  background-size:100%;}
+#linha-cabecalho {display: flex;flex-wrap: wrap;flex-flow: row;align-items: center;justify-content: space-between;}
+
+.section-container#navega{display: flex; justify-content: space-around; flex-direction: column; align-items: center; padding:0px;}
+.section-container#telefones-uteis{text-align: center;}
+.homemenu{display:none; padding: 15px; width:100%;}
+
+
+/* PAGINA "CorteInteramericana.aspx" : QUEBRA  */
+/* QUEBRA ENDEREÇO DE LINKS MUITO GRANDES PARA RESPONSIVIDADE */
+
+a#quebra-link-grande {
+    white-space: pre-wrap; /* css-3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+/* VOLTA AO TOPO  */
+
+#back2Top {width: 40px; line-height: 40px; overflow: hidden; z-index: 999; display: none; cursor: pointer; position: fixed; 
+    bottom: 50px; right: 0; background-color: #ccc; color: #555; text-align: center; font-size: 30px; text-decoration: none; 
+    border-radius: 15px 15px 0 0;
+      -moz-transform: rotate(270deg);
+      -webkit-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: rotate(270deg);
+  }
+  
+  #back2Top:hover {background-color: #DDF; color: #000;}
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1024px) {
+    /* .section-container {width: 95%;} */
+    .search-box input#CrtTopo_txtBuscar {width: 15em;}
+    .noticia-2col-imagem-wrap {height: 260px;}
+    .section-container#slide2 {height: 400px;}
+    .search-box input#CrtTopo_txtBuscar {width: 15em;}
+    .slide2-layout {padding: 0; height: 300px;}
+    #Section2 {height: 400px;}
+    .slide2-layout .arrow2 {height: 200px;}
+    .slide2-wrap {height: auto;}
+    }
+     
+    @media screen and (max-width: 860px) {
+
+    #linha-cabecalho {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+
+  @media screen and (max-width: 768px) {
+    .search-box input#CrtTopo_txtBuscar {width: 15em;}
+    }
+  
+  @media screen and (max-width: 620px){
+  
+    /* MENU SUPERIOR */
+    
+    .menu-superior, .menusup-overlay {height: auto; /* text-align: center; */}
+    .menu-superior a {font-size: 1.1em;}
+    .menusup-overlay a {font-size: 1.1em;}
+    .menusupi, .menusupi-overlay {width: 100%; display: flex;  flex-direction: column; margin: 0;}
+    .esquerda-menu-superior {margin: 10px 0; width: 100%; padding-left: 5%; justify-content: space-between; padding-right: 20px;} 
+    .infosup {margin: 5px 0;}
+    .acessibilidade-dropbtn {font-size: 1.1em;}
+    .acessibilidade-dropdown-content {right: -10;}
+    #atl-player {position: unset; right: 0;}
+  
+    /* MENU OVERLAY */
+  
+    .menu-overlay-content {margin: 25px 0px;}
+    .menu-row {display: block; font-size: x-large;}
+    .menu-column {padding-left: 20px; margin-bottom: 20px;}
+    .menu-column h4 {margin-bottom: 2px;}
+    #close {position: absolute; top: 70; width: 50px; right: 25; margin: 0;}
+      
+    /* CABECALHO */
+    
+    .cabecalho {height: fit-content;}
+    .section-container#cabecalho {display: grid; justify-content: stretch;}
+    #logo-topo {margin-left: 5%;}
+    .logo-branco {margin-bottom: 15;}
+    .search-box input#CrtTopo_txtBuscar {width: 15em;}
+
+    .infosup ul {display: flex; flex-wrap: wrap; justify-content: center;}
+    #linha-cabecalho {display: flex; align-items: center; width: 95%; margin: 0 auto;}
+    #coluna-hambg {flex: 2%; text-align: center;}
+    #coluna-logogoverno {flex: 50%;}
+      
+    .cards-secretarias-flip-card {
+      width: 130;
+      height: 130px;}
+
+    }
+
+
+
+
+@media (max-width: 620px){
+    .mais-pesquisados-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 2em;
+    }
+    .mais-pesquisados-wrap a {
+        font-size: 0.85em;
+        display: unset;
+        justify-content: unset;
+    }
+    .imprensa-conteudo-imagem {
+        height: 300px;
+    }
+}
+
